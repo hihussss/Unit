@@ -44,5 +44,5 @@ test('sortHealth', () => {
         {name: 'Лучник', health: 80},  
     ]
     const result = sortHealth(players);
-    expect(result).toBe(sortList);
+    expect(result).toEqual(sortList);
 });
